@@ -1,7 +1,8 @@
-import torch
-import numpy as np
 import random
-from torch.utils.data import TensorDataset, DataLoader
+
+import numpy as np
+import torch
+from torch.utils.data import DataLoader, TensorDataset
 
 
 def mnist(shuffle=True, batch_size=64):
